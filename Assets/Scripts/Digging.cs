@@ -3,18 +3,29 @@ using UnityEngine.InputSystem;
 
 public class Digging : MonoBehaviour
 {
-    public GameObject dirtGround;
-    public GameObject graveHole;
-    public GameObject dirtPile;
+    // public GameObject graveHole;
+    // public GameObject dirtPile;
+
+    public GameObject dirt1;
+    public GameObject dirt2;
+    public GameObject dirt3;
+
+    public GameObject dirtPile1;
+    public GameObject dirtPile2;
+    public GameObject dirtPile3;
 
     public float digTime = 3f;
     public float progress = 0f;
 
     void Start()
     {
-        // set graveHole and dirtPile inactive
-        graveHole.SetActive(false);
-        dirtPile.SetActive(false);
+        dirt1.SetActive(true);
+        dirt2.SetActive(true);
+        dirt3.SetActive(true);
+
+        dirtPile1.SetActive(false);
+        dirtPile2.SetActive(false);
+        dirtPile3.SetActive(false);
     }
 
     void Update()
@@ -24,17 +35,16 @@ public class Digging : MonoBehaviour
         {
             progress += Time.deltaTime;
 
-            // dirt pile grows in size
-            //dirtPile.SetActive(true);
-            //dirtPile.transform.localScale = Vector3.one * Mathf.Clamp01(progress / digTime);
+            /* dirt pile grows in size
+             dirtPile.SetActive(true);
+             dirtPile.transform.localScale = Vector3.one * Mathf.Clamp01(progress / digTime);
+            */
 
-            if (progress >= digTime)
-            {
-                dirtGround.SetActive(false);
-                graveHole.SetActive(true);
-                // dirt pile appears once done digging
-                dirtPile.SetActive(true);
-            }
-        }
-    }
+                
+
+                //dirt2.SetActive(false);
+                //dirt3.SetActive(false);
+             
+           }
+     }
 }

@@ -15,16 +15,12 @@ public class Stuck : MonoBehaviour
 
     void Update()
     {
-        // checks if the player is stuck
         if (playerStuck)
 
-        // player must spam space key a required amount of times
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            // increments how many times space was pressed
             spamClicksAmount++;
 
-            // if space is spammed as much as needed
             if (spamClicksAmount >= spamClicksNeeded)
             {
                 Escape();
@@ -34,10 +30,8 @@ public class Stuck : MonoBehaviour
 
     void FixedUpdate()
     {
-        // checks if player is stuck
         if (playerStuck)
         {
-            // player slowly sinks
             player.linearVelocity = new Vector3(0f, -sinkingSpeed, 0f);
         }
     }
@@ -62,7 +56,6 @@ public class Stuck : MonoBehaviour
         player.useGravity = true;
         player.linearVelocity = Vector3.zero;
 
-        // player is given a jumpforce to jump out of the grave
         player.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
 }
