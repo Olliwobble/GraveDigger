@@ -1879,7 +1879,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4694783a9e979ea4c95ebe0086164ac0, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ea395f3e78585ab4a9fc2757c20b04de, type: 2}
+      objectReference: {fileID: 2100000, guid: a6068b66061eb634ba8a81ac73972bd0, type: 2}
     - target: {fileID: 919132149155446097, guid: 4694783a9e979ea4c95ebe0086164ac0, type: 3}
       propertyPath: m_Name
       value: Tall gravestone
@@ -3409,7 +3409,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 70143e85f5bdadb459780c7af7a37185, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e213198810f3a0a4cbededc74746af32, type: 2}
+      objectReference: {fileID: 2100000, guid: 860a623a925dfcc429e6b321a805fe42, type: 2}
     - target: {fileID: 919132149155446097, guid: 70143e85f5bdadb459780c7af7a37185, type: 3}
       propertyPath: m_Name
       value: Gravestone square
@@ -3531,7 +3531,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 757eca63e2326d84aa40ac4a390ed254, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 9d7a5da0c0a01b447aabeb952fea8cea, type: 2}
+      objectReference: {fileID: 2100000, guid: 0b64a5704bcd6fc4f8d7b25f44bcdb49, type: 2}
     - target: {fileID: 919132149155446097, guid: 757eca63e2326d84aa40ac4a390ed254, type: 3}
       propertyPath: m_Name
       value: Gravestone wide
