@@ -9,7 +9,7 @@ public class ObjectGrabable : MonoBehaviour
     private float userYawOffset;
     private float snapRotateDegrees;
 
-    private float snapRotaterDegrees = 90f;
+    [SerializeField] private float snapRotaterDegrees = 90f;
     [SerializeField] private bool followPlayerLook = true;
 
     private void Awake()
