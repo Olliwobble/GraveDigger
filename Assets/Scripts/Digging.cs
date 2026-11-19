@@ -27,9 +27,9 @@ public class Digging : MonoBehaviour
         dirt2.SetActive(true);
         dirt3.SetActive(true);
 
-       //dirtPile1.SetActive(false);
-       //dirtPile2.SetActive(false);
-       //dirtPile3.SetActive(false);
+     //  dirtPile1.SetActive(false);
+     //  dirtPile2.SetActive(false);
+     //  dirtPile3.SetActive(false);
     }
 
     void Update()
@@ -45,23 +45,25 @@ public class Digging : MonoBehaviour
        {
         digCount++;
 
+        Debug.Log(digCount);
+
         if (digCount == 1)
         { 
             dirt1.SetActive(false);
-        //    dirtPile1.SetActive(true);
+         //   dirtPile1.SetActive(true);
         }
     
 
         else if (digCount == 2)
         { 
             dirt2.SetActive(false);
-        //    dirtPile2.SetActive(true);
+         //   dirtPile2.SetActive(true);
         }
 
         else if (digCount == 3)
         {
             dirt3.SetActive(false);
-        //    dirtPile3.SetActive(true);              
+         //   dirtPile3.SetActive(true);              
         }
        }       
             // int += Time.deltaTime;
