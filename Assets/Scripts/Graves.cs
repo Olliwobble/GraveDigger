@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Interract : MonoBehaviour
+public class Graves : MonoBehaviour
 {
     public GameObject cube;
     public GameObject broken_Wall;
