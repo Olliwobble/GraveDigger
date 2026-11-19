@@ -1,5 +1,7 @@
+using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.ProBuilder.MeshOperations;
 
 public class Digging : MonoBehaviour
 {
@@ -14,8 +16,9 @@ public class Digging : MonoBehaviour
     public GameObject dirtPile2;
     public GameObject dirtPile3;
 
-    public float digTime = 3f;
-    public float progress = 0f;
+    private int digCount = 0;
+    // public float digTime = 3f;
+    // public float progress = 0f;
 
     void Start()
     {
@@ -31,9 +34,36 @@ public class Digging : MonoBehaviour
     void Update()
     {
         // check if LMB or E key is pressed
-        if ((Mouse.current != null && Mouse.current.leftButton.isPressed) || (Keyboard.current != null && Keyboard.current.eKey.isPressed))
+        if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
         {
-            progress += Time.deltaTime;
+            Dig();
+        }
+    }
+
+        void Dig()
+       {
+        digCount++;
+
+        if (digCount == 1)
+        { 
+            dirt1.SetActive(false);
+            dirtPile1.SetActive(true);
+        }
+    
+
+        else if (digCount == 2)
+        { 
+            dirt2.SetActive(false);
+            dirtPile2.SetActive(true);
+        }
+
+        else if (digCount == 3)
+        {
+            dirt3.SetActive(false);
+            dirtPile3.SetActive(true);              
+        }
+       }       
+            // int += Time.deltaTime;
 
             /* dirt pile grows in size
              dirtPile.SetActive(true);
@@ -46,5 +76,6 @@ public class Digging : MonoBehaviour
                 //dirt3.SetActive(false);
              
            }
-     }
-}
+ 
+
+

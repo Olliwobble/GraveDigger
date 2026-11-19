@@ -1,2 +1,17 @@
 fileFormatVersion: 2
 guid: cf42f813c4f96b04f902e45d9d3fe724
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dirt1: {fileID: 3945838609026702453, guid: a8b46e73e73f6054390fb9b56229882a, type: 3}
+  - dirt2: {fileID: 8800650533318268231, guid: 2e199857225ea794ba2d1124db9898c9, type: 3}
+  - dirt3: {fileID: 5263969345711184191, guid: 19d31621c6b118746886206246f743ae, type: 3}
+  - dirtPile1: {fileID: 919132149155446097, guid: c6795104d6bf04b408b4d5cfd8efb6f1, type: 3}
+  - dirtPile2: {fileID: 919132149155446097, guid: 089cf3f4cb291cd4ca87a92ef6da4e5e, type: 3}
+  - dirtPile3: {fileID: 919132149155446097, guid: ce0bfe6d6858b65418ddf93bec270560, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
