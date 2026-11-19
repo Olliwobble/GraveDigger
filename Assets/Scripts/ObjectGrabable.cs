@@ -23,6 +23,9 @@ public class ObjectGrabable : MonoBehaviour
     {
         this.objectGrabPointTransform = objectGrabPointTransform;
         objectRigidbody.useGravity = false;
+        Debug.Log("grab");
+
+
     }
 
     public void Drop()
@@ -36,10 +39,15 @@ public class ObjectGrabable : MonoBehaviour
         if (objectGrabPointTransform == null) return;
 
         // Press R or Q to rotate in crisp building increments
+
         if (Input.GetKeyDown(KeyCode.R))
         {
-            userYawOffset += snapRotateDegrees;
+            transform.rotation = Quaternion.Euler(180, 0, 90);
+            //transform.rotation = Quaternion.AngleAxis(90, Vector3.down);
+            //userYawOffset += snapRotateDegrees;
+            Debug.Log("test");
         }
+
         if (Input.GetKeyDown(KeyCode.Q))
         {
             userYawOffset -= snapRotateDegrees;
@@ -55,5 +63,6 @@ public class ObjectGrabable : MonoBehaviour
             objectRigidbody.MovePosition(newPosition);
         }
     }
+
 }
 
