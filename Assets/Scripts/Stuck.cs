@@ -40,6 +40,7 @@ public class Stuck : MonoBehaviour
     {
         if (other.attachedRigidbody == player)
         {
+            Debug.Log("Player is stuck");
             playerStuck = true;
             spamClicksAmount = 0;
 
