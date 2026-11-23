@@ -2692,6 +2692,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 95.605
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7f39e08f541645049a051068dd96baeb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b49b439b54af2644eb0f5f9cc00037e7, type: 2}
     - target: {fileID: 919132149155446097, guid: 7f39e08f541645049a051068dd96baeb, type: 3}
       propertyPath: m_Name
       value: Plank (9)
@@ -5143,6 +5147,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.832
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7f39e08f541645049a051068dd96baeb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b49b439b54af2644eb0f5f9cc00037e7, type: 2}
     - target: {fileID: 919132149155446097, guid: 7f39e08f541645049a051068dd96baeb, type: 3}
       propertyPath: m_Name
       value: Plank
@@ -5495,7 +5503,7 @@ Light:
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
   serializedVersion: 12
-  m_Type: 1
+  m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 10
@@ -5540,7 +5548,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5000
+  m_ColorTemperature: 8401
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -5560,7 +5568,7 @@ Transform:
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: -17.25, y: 438.6, z: -437.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6498,7 +6506,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541578732}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6565,7 +6573,7 @@ Transform:
   m_GameObject: {fileID: 541578732}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 161.1, y: -41, z: -278.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9369,6 +9377,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 614e04b3c19ddea43be955de98b74630, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fbda378ad32ac44daf10cdbac1ac517, type: 2}
     - target: {fileID: 919132149155446097, guid: 614e04b3c19ddea43be955de98b74630, type: 3}
       propertyPath: m_Name
       value: Shovel
@@ -16018,6 +16030,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 98.878
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 40254d609e8e30d4cb4312b13b72e607, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 968fa3d19310e214babd8ffbbe6bbca1, type: 2}
     - target: {fileID: 919132149155446097, guid: 40254d609e8e30d4cb4312b13b72e607, type: 3}
       propertyPath: m_Name
       value: Plank pile
@@ -22960,6 +22976,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7bab034c1703c274f975be1da5ac1fcf, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 44d04ef8f428aa44281773abb1fa2cd4, type: 2}
     - target: {fileID: 919132149155446097, guid: 7bab034c1703c274f975be1da5ac1fcf, type: 3}
       propertyPath: m_Name
       value: Ladder
