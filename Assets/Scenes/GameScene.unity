@@ -6375,11 +6375,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 551fb1c9f7c26734a9b1435acfb78d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerPickupObject
-  playerCameraTransform: {fileID: 1139542637}
-  pickUpLayerMask:
-    serializedVersion: 2
-    m_Bits: 54
-  objectGrabPointTransform: {fileID: 363500561}
 --- !u!114 &618890258
 MonoBehaviour:
   m_ObjectHideFlags: 0
