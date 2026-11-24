@@ -10,9 +10,9 @@ public class Digging : MonoBehaviour
     public GameObject dirt2;
     public GameObject dirt3;
 
-    public GameObject dirtPile1;
-    public GameObject dirtPile2;
-    public GameObject dirtPile3;
+    //public GameObject dirtPile1;
+    //public GameObject dirtPile2;
+    //public GameObject dirtPile3;
 
 
     private int digCount = 0;
@@ -24,9 +24,9 @@ public class Digging : MonoBehaviour
         dirt2.SetActive(true);
         dirt3.SetActive(true);
 
-        dirtPile1.SetActive(false);
-        dirtPile2.SetActive(false);
-        dirtPile3.SetActive(false);
+        //dirtPile1.SetActive(false);
+        //dirtPile2.SetActive(false);
+        //dirtPile3.SetActive(false);
     }
 
     void Update()
@@ -64,20 +64,20 @@ public class Digging : MonoBehaviour
         if (digCount == 1)
         {
             dirt1.SetActive(false);
-            dirtPile1.SetActive(true);
+            //dirtPile1.SetActive(true);
         }
 
 
         else if (digCount == 2)
         {
             dirt2.SetActive(false);
-            dirtPile2.SetActive(true);
+            //dirtPile2.SetActive(true);
         }
 
         else if (digCount == 3)
         {
             dirt3.SetActive(false);
-            dirtPile3.SetActive(true);              
+            //dirtPile3.SetActive(true);              
         }
     }
 }
